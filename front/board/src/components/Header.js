@@ -27,7 +27,7 @@ const Wrapper = styled.div`
 const NavBox = styled.div`
     width: 100%;
     height: 40px;
-
+    line-height:40px;
     background-color: wheat;
     text-align: center;
 `;

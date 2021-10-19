@@ -1,16 +1,33 @@
 import React from 'react';
 import './App.css';
+import styled , {css} from "styled-components"
 
-import Header from './components/Header';
+import { Header,Footer } from './components';
+
 
 function App() {
   return (
-    <div className="App">
+    <Wrapper className="App">
       <Header>
         asd
       </Header>
-    </div>
+      <Footer>
+        asd
+      </Footer>
+    </Wrapper>
   );
 }
 
 export default App;
+
+const Wrapper = styled.div`
+    width: 100vw;
+    height:100vh;
+    position: sticky;
+    margin: 0;
+    z-index:-9999;
+    top:0;
+    left:0;
+    margin: 0;
+    background-color: white;
+`;
