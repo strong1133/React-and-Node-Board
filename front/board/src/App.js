@@ -11,7 +11,9 @@ function App() {
       <Header>
         asd
       </Header>
-      <UserInfo/>
+      <Body>
+        <UserInfo/>
+      </Body>
       <Footer>
         asd
       </Footer>
@@ -24,11 +26,14 @@ export default App;
 const Wrapper = styled.div`
     width: 100vw;
     height:100vh;
-    position: sticky;
-    margin: 0;
-    z-index:-9999;
+  
     top:0;
     left:0;
     margin: 0;
     background-color: white;
 `;
+
+const Body = styled.div`
+  margin-top: 50px;
+  width: 100%;
+`

@@ -11,7 +11,7 @@ const UserInfo = (props) =>{
 
     return(
         <div>
-            {user_info}
+            <h1>{user_info} </h1>
         </div>
     );
 };

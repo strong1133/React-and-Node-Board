@@ -2,7 +2,7 @@ import { createAction, handleActions } from "redux-actions";
 import { produce } from "immer";
 
 const SET_USER = 'SET_USER';
-const GET_USEr = 'GET_USER'
+const GET_USER = 'GET_USER'
 
 
 const setUser = createAction(SET_USER, (user) => ({user}));

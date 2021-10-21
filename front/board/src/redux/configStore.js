@@ -2,10 +2,11 @@ import { createStore, combineReducers, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk"
 import { createBrowserHistory } from "history"
 import { connectRouter } from "connected-react-router";
+import User from './modules/user';
+
 
 export const history = createBrowserHistory();
 
-import User from './modules/user';
 
 // 리듀서들을 한곳으로 모으는 콤바인(결합) 함수
 const rootReducer = combineReducers({

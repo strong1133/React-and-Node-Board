@@ -16,11 +16,10 @@ export default Header;
 
 const Wrapper = styled.div`
     width: 100%;
-    height:100%;
-    position: sticky;
+    position: fixed;
     top:0;
     left:0;
-    margin: 0;
+    margin: 0 0 100px 0;
     background-color: white;
 `;
 
