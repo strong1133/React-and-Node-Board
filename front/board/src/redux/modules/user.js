@@ -14,7 +14,6 @@ const initialState = {
     isLogin: true
 }
 
-
 export default handleActions({
     [SET_USER]: (state, action) => produce(state, (draft) => {
         draft.user = action.payload.user;
