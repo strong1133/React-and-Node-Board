@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import styled , {css} from "styled-components"
 
-import { Header,Footer } from './components';
-
+import { Header,Footer, UserInfo } from './components';
+import {useDispatch, useSelector} from 'react-redux';
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Header>
         asd
       </Header>
+      <UserInfo/>
       <Footer>
         asd
       </Footer>
