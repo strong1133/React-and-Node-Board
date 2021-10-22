@@ -1,39 +1,25 @@
-import React from 'react';
+import logo from './logo.svg';
 import './App.css';
-import styled , {css} from "styled-components"
-
-import { Header,Footer, UserInfo } from './components';
-import {useDispatch, useSelector} from 'react-redux';
 
 function App() {
   return (
-    <Wrapper className="App">
-      <Header>
-        asd
-      </Header>
-      <Body>
-        <UserInfo/>
-      </Body>
-      <Footer>
-        asd
-      </Footer>
-    </Wrapper>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
   );
 }
 
 export default App;
-
-const Wrapper = styled.div`
-    width: 100vw;
-    height:100vh;
-  
-    top:0;
-    left:0;
-    margin: 0;
-    background-color: white;
-`;
-
-const Body = styled.div`
-  margin-top: 50px;
-  width: 100%;
-`
