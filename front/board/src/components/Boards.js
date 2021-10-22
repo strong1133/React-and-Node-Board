@@ -1,9 +1,12 @@
 import React from 'react';
-import styled from "styled-components"
 
 const Boards =() =>{
 
-    return()
+    return(
+        <div>
+            <h2>Board</h2>
+        </div>
+    )
 }
 
 export default Boards;

@@ -1,14 +1,15 @@
-import './App.css';
+import '../App.css';
 import React from 'react'
-import styled from "styled-components"
+import styled from 'styled-components';
 
-import { Header,Footer, Boards } from './components';
+import { Header,Footer, Boards } from '../components';
 
 
 function App() {
   return (
     <Wrapper>
       <Header/>
+      <Boards/>
       <Footer/>
     </Wrapper>
   );
